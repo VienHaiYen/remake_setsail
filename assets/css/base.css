@@ -1,0 +1,28 @@
+:root{
+    --primary-color: #3fd0d4;
+    --white-color: #fff;
+    --text-color-1: #212121;
+    --text-color-2: #40d0d4;
+
+    --header-height: 80px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    animation: fade-in 0.5s linear;
+}

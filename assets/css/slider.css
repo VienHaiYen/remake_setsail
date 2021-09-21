@@ -1,0 +1,53 @@
+#slider{
+    padding-top:50%;
+    /* width: 200px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-background{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.elle.vn/wp-content/uploads/2019/11/01/378261/mua-dong-lang-co-ban-dem-ruc-ro-travelandleisure.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    /* animation: zoom-background 6s infinite; */
+}
+
+.slider__textbox{
+    width: 80%;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: rgb(78, 69, 69) 1px 0 1px;
+}
+
+.slider__texbox-slogan{
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+}
+.slider__texbox-title{
+    font-size: 9.5rem;
+    font-weight: 600;
+}
+.slider__texbox-message{
+    font-size: 2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@keyframes zoom-background { 
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
